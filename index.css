@@ -5,26 +5,6 @@
     display: none;
 }
 
-.carousel-container {
-    position: relative;
-    padding: 150px;
-}
-
-.carousel-item img{
-    width: 100px;
-    height: 100px;
-}
-
-.user-image{
-    width: 150px;
-    height: 150px;
-}
-
-.arrow-icon{
-color: red;
-background-color: #ffff;
-border: 1px solid gray;
-}
 
 .popover-container{
     width: 100%;
@@ -55,19 +35,6 @@ border: 1px solid gray;
     padding: 20px;
 }
 
-.slider-right-arrow{
-    width: 2rem;
-    height: 2rem;
-    color: gray;
-    position: absolute;
-    top:50%;
-    transform: translateY(-50%);
-    background-color: #ffff;
-    right: -3.5rem;
-    border-radius: 99999px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);;
-    border: 1px solid gray;
-}
 
 @media screen and (max-width: 768px) {
     #userId {

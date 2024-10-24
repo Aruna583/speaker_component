@@ -38,8 +38,6 @@ function createCards(){
 
         const carouselItem = document.createElement('div');
         speakerCarousel.classList.add('d-flex', 'justify-content-center', 'align-items-center')
-        // carouselItem.style.width = '400px';
-        // carouselItem.style.height = '321px';
         carouselItem.style.margin = '0px'
     
         if(index === 0) carouselItem.classList.add('active');
@@ -59,7 +57,6 @@ function createCards(){
 }
 
 createCards();
-// createCards();
 
 speakerCarousel.addEventListener('click', ()=>{
     if(speakerCarousel.scrollLeft + speakerCarousel.offsetWidth >= speakerCarousel.scrollWidth){
@@ -156,7 +153,6 @@ function showPopOver(index){
 
     const descriptionContainer = document.createElement('div')
     descriptionContainer.classList.add('d-flex', 'flex-row','justify-content-end', 'align-items-center', 'p-2', 'pt-4')
-    // descriptionContainer.classList.add('custom-user-details')
 
     descriptionContainer.innerHTML = `
     <p>
